@@ -1,12 +1,12 @@
-import TopNav from './components/Topnav'
+import TopNav from "./components/Topnav";
 import { Routes, Route } from "react-router-dom";
 import routes from "./routes";
-import './App.css'
+import "./App.css";
 
 const App = () => {
   return (
     <div>
-      <TopNav/>
+      <TopNav />
       <Routes>
         {routes.map((route, index) => {
           return (
@@ -21,6 +21,6 @@ const App = () => {
       </Routes>
     </div>
   );
-};  
+};
 
 export default App;
