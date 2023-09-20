@@ -1,22 +1,27 @@
-
 .navbar{
-    background: black !important;
     text-decoration: none; 
+    font-weight: bold;
+    background-color: black !important;
+    
 }
 
 
 .brand,.list_item{
     color: white;
     font-size: bold;
-    font-size: 30px;
+    font-size: 30px;    
+    
     
 }
 
 .list_item:hover{
-    color: tomato !important;
+    color: tomato;
 }
 .btn{
-    background-color: tomato !important;
+    background-color: tomato;
     border: none;
     border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
 }
+

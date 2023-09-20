@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Navbar, Nav, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const TopNav = () => {
@@ -15,10 +14,6 @@ const TopNav = () => {
     {
         path:'/contact',
         name: "Contact"
-    },
-    {
-        path:'/signup',
-        name: "SignUp"
     },
     {
         path:'/whyjoin',
