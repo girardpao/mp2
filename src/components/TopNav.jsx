@@ -1,7 +1,6 @@
 import { Container, Navbar, Nav, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import './App.css';
 const TopNav = () => {
 
     const menuData = [
@@ -21,7 +20,7 @@ const TopNav = () => {
         path:'/whyjoin',
         name: "WhyJoin"
     },
-    ]
+    ];
   return (
     <Navbar bg="light" expand="lg">
       <Container>
