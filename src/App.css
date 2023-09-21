@@ -1,27 +1,23 @@
-.navbar{
-    text-decoration: none; 
-    font-weight: bold;
-    background-color: black !important;
-    
+.navbar {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: black !important;
 }
 
-
-.brand,.list_item{
-    color: white;
-    font-size: bold;
-    font-size: 30px;    
-    
-    
+.brand,
+.list_item {
+  color: white;
+  font-size: bold;
+  font-size: 30px;
 }
 
-.list_item:hover{
-    color: tomato;
+.list_item:hover {
+  color: tomato;
 }
-.btn{
-    background-color: tomato;
-    border: none;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 18px;
+.btn {
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
 }
-
