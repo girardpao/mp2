@@ -14,6 +14,10 @@
     
 }
 
+.brand:hover,.brand:focus{
+    color:white;
+}
+
 .list_item:hover{
     color: tomato;
 }

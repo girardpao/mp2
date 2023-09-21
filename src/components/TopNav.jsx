@@ -1,7 +1,7 @@
 import { Container, Navbar, Nav, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import { Link } from 'react-router-dom';
+import './App.css';
 const TopNav = () => {
 
     const menuData = [
@@ -25,13 +25,13 @@ const TopNav = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home" className="brand">Gymfinity</Navbar.Brand>
+        <Navbar.Brand as = {Link} to = "/" className="brand">Gymfinity</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             {
                 menuData.map((item)=>(
-                    <NavLink to={item.path} key={item.name}>
+                    <NavLink as = {Link} to={item.path} key={item.name}>
                         <div className="list_item">{item.name}</div>
                         </NavLink>
                 ))
