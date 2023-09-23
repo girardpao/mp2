@@ -5,10 +5,6 @@ const TopNav = () => {
 
     const menuData = [
     {
-        path:'/',
-        name: "Home"
-    },
-    {
         path:'/about',
         name: "About"
     },
