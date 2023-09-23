@@ -1,13 +1,20 @@
 import { Container, Navbar, Nav, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import "./Topnav.css";
 const TopNav = () => {
 
     const menuData = [
+      {
+        path:'/home',
+        name: "Home"
+    },
+      
     {
         path:'/about',
         name: "About"
     },
+    
     {
         path:'/contact',
         name: "Contact"
@@ -39,6 +46,7 @@ const TopNav = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
   )
 }
 

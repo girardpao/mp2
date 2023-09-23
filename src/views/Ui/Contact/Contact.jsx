@@ -4,8 +4,9 @@ import Col from 'react-bootstrap/Col';
 import "./Contact.css"
 const Contact = () => {
   return (
+   <section className='contactForm'>
     <Container>
-      <Row className= "mb-5 mt-3">
+      <Row className= "mb-5 pt-5">
         <Col lg = '8'>
           <h1 className = "display-4 mb-4">
             Contact Me
@@ -40,9 +41,9 @@ const Contact = () => {
                   type="text"
                   />
                 </Col>
-                <Col lg = '5' className="form-group">
+                <Col lg = '6' className="form-group">
                   <input 
-                  className="form-control rounded-0"
+                  className="form-control rounded-0" 
                   id="email"
                   name="email"
                   placeholder="email"
@@ -51,16 +52,22 @@ const Contact = () => {
                   </Col>
               </Row>
               <textarea 
-              className="form-control rounded-0" id="message" 
+              className="form-control rounded-0 mt-3" id="message" 
               name="message"
               placeholder="message"
               rows="5">
               </textarea>
               <br/>
+              <Row>
+                <Col lg="12" className="form-group">
+                  <button className="btn ac_btn contactButton" type="submit">Send</button>
+                </Col>
+              </Row>
             </form>
           </Col>
         </Row>
     </Container>
+    </section>
   );
 };
 

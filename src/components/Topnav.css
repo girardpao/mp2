@@ -1,0 +1,27 @@
+.navbar {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black !important;
+  }
+  
+  .brand,.list_item {
+    color: white;
+    font-size: bold;
+    font-size: 30px;
+  }
+  
+  .brand:hover,.brand:focus{
+      color:white;
+  }
+  
+  .list_item:hover{
+      color: tomato;
+  }
+  .btn-success{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
