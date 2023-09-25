@@ -36,9 +36,9 @@
 }
 
 .contactButton{
-    color: black;
+    color: white;
     font-weight: bolder;
 }
 .contactButton:hover{
-    color: black;
+    color: wheat;
 }
