@@ -2,7 +2,7 @@
     background-image: url(../../../assets/contactbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 100%;
     
 }
 
@@ -38,6 +38,8 @@
 .contactButton{
     color: white;
     font-weight: bolder;
+    padding: 20px;    
+    font-size: 18px;
 }
 .contactButton:hover{
     color: wheat;

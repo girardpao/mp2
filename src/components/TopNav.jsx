@@ -2,13 +2,15 @@ import { Container, Navbar, Nav, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import "./Topnav.css";
-const TopNav = () => {
+import { useNavigate } from 'react-router-dom';
+function TopNav(){
+const TopNav = useNavigate(); 
 
     const menuData = [
-      {
-        path:'/home',
-        name: "Home"
-    },
+    //   {
+    //     path:'/home',
+    //     name: "Home"
+    // },
       
     {
         path:'/about',
@@ -27,7 +29,7 @@ const TopNav = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as = {Link} to = "/" className="brand">Gymfinity</Navbar.Brand>
+        <Navbar.Brand as = {Link} to = "/Home" className="brand">Gymfinity</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -40,9 +42,9 @@ const TopNav = () => {
             }
 
           </Nav>
-          <Nav className="ms-auto">
-            <button className="btn btn-success">Sign Up</button>
-          </Nav>
+          {<Nav className="ms-auto">
+            <button onClick={()=>TopNav("/SignUp")} className="btn btn-success">Sign Up</button>
+          </Nav>}
         </Navbar.Collapse>
       </Container>
     </Navbar>

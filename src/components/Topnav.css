@@ -13,6 +13,9 @@
   .brand:hover,.brand:focus{
       color:white;
   }
+  .brand:hover{
+    color: tomato;
+  }
   
   .list_item:hover{
       color: tomato;

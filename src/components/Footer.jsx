@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 const Footer = () => {
+
   return (
  
     <footer class="footer-distributed">
@@ -22,7 +23,7 @@ const Footer = () => {
             <div>
                 <i class="fa fa-map-marker"></i>
                 <p><span>790 P. Ocampo Sr. St.</span>
-                formerly, Ocampo St, Malate, Manila, 1004 Metro Manila)</p>
+                (formerly, Ocampo St, Malate, Manila, 1004 Metro Manila)</p>
             </div>
 
             <div>
@@ -44,7 +45,6 @@ const Footer = () => {
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
             </div>
         </div>
     
