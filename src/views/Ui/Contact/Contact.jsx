@@ -9,7 +9,7 @@ const Contact = () => {
       <Row className= "mb-5 pt-5">
         <Col lg = '8'>
           <h1 className = "display-4 mb-4">
-            Contact Me
+            Contact Us
           </h1>
         </Col>
         </Row>
@@ -17,17 +17,17 @@ const Contact = () => {
         <Row className="sec_sp">
           <Col lg = '5' className="mb-5">
           <h3 className="color_sec py-4">Get in Touch</h3>
-          <address>
+          <address className='contact-details'>
             <strong>Email: Gyminfinity@gmail.com</strong>
             <br/>
             <br/>
             <p>
               <strong>Phone: 09673179108</strong>
             </p>
-          </address>
           <p>
           790 P. Ocampo Sr. St. ( formerly, Ocampo St, Malate, Manila, 1004 Metro Manila)
           </p>
+          </address>
           </Col>
           <Col lg ='7' className="d-flex align-items-center">
             <form className="contact_form w-100">
