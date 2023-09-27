@@ -1,17 +1,18 @@
 .Signupbody{
-    background-image: url(../../../assets/SignupBG.jpg);
+    background-image: url(../../../assets/SingupImg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     
 }   
 .containerbody{
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 200px;
+    /* margin-top: 300px; */
     width: 600px;
     padding-bottom: 30px;
+
     
     
 }
@@ -66,19 +67,19 @@
     background: transparent;
     border: none;
     outline: none;
-    color: #797979;
+    color: black;
     font-size: 19px;
 }
 
 .forget-password{
     padding-left: 60px;
     margin-top: 27px;
-    color: #797979;
+    color: #ffffff;
     font-size: 18px;    
 }
 
 .forget-password span{
-    color: #4c00b4;
+    color: white;
     cursor: pointer;
 }
 

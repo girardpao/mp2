@@ -29,7 +29,7 @@ const TopNav = useNavigate();
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as = {Link} to = "/Home" className="brand">Gymfinity</Navbar.Brand>
+        <Navbar.Brand as = {Link} to = "/" className="brand">Gymfinity</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
