@@ -10,20 +10,20 @@ import WhyJoin from "./views/Ui/WhyJoin/WhyJoin";
 import Footer from "./components/Footer";
 
 const App = () => {
-  console.log(routes)
-  
+  console.log(routes);
+
   return (
     <div className="App">
       <TopNav />
-     
+
       <Routes>
-        <Route path = "/home" element = {<Home/>}/>
-        <Route path = "/about" element = {<About/>}/>
-        <Route path = "/contact" element = {<Contact/>}/>
-        <Route path = "/signup" element = {<SignUp/>}/>
-        <Route path = "/whyjoin" element = {<WhyJoin/>}/>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/whyjoin" element={<WhyJoin />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
