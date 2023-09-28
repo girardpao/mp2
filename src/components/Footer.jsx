@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -9,13 +9,13 @@ const Footer = () => {
             <h4>Gymfinity</h4>
             <ul>
               <li>
-                <a href="#">About Us</a>
+                <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Our Services</a>
+                <a href="#">Contact</a>
               </li>
               <li>
-                <a href="#">Programs</a>
+                <a href="#">Why Join</a>
               </li>
             </ul>
           </div>
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Get Help</h4>
             <ul>
-              <li>
+              {/* <li>
                 <a href="#">FAQ</a>
               </li>
               <li>
@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#">Order Status</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#">Payment Options</a>
               </li>
@@ -43,16 +43,22 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Follow US</h4>
             <div className="social-links">
-              <a href="#">
+              <a href="https://www.facebook.com/" target="blank">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
+              <a href="https://www.instagram.com/" target="blank">
                 <i className="fab fa-instagram"></i>
               </a>
+              <a href="https://twitter.com/home" target="blank">
+                <i className="fab fa-twitter"></i>
+              </a>
             </div>
+          </div>
+          <div className="nav justify-content-center border-bottom pb-3 mb-3"></div>
+          <div>
+            <p className="text-center copyright">
+              © Gymfinity. All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>

@@ -13,38 +13,48 @@ const WhyJoin = () => {
   return (
     <>
       <section className="whyJoinSection">
-        <Container className="text-center">
-          <Row xs={1} md={4} className="d-flex justify-content-center mt-5">
+        <Container className="text-center grid gap-5">
+          <Row
+            xs={1}
+            md={4}
+            className="d-flex justify-content-center mt-5 grid gap-5"
+          >
             <Col>
               <Image src={FitnessPrograms} fluid />
               <h3 className="">Fitness Programs</h3>
-              <p>Our gyms are not just about the facilities and equipment. </p>
+              <p>
+                With our skilled trainers and resources, we are dedicated to
+                assisting you in achieving a healthier you.
+              </p>
             </Col>
             <Col>
               <Image src={Convenience} fluid />
               <h3>Convenience</h3>
               <p>
-                Your key opens all doors of the 4,000+ (and growing) locations
-                worldwide – 24 hours a day, seven days a week.
+                Global locations, available around the clock, seven days a week.
               </p>
             </Col>
           </Row>
-          <Row xs={1} md={4} className="d-flex justify-content-center mt-5">
+          <Row
+            xs={1}
+            md={4}
+            className="d-flex justify-content-center mt-5 grid gap-5"
+          >
             <Col>
               <Image src={Amenities} fluid />
               <h3>Community</h3>
               <p>
-                Your membership welcomes you to a family that gives the extra
-                push you need, and the extra support you want to help break down
-                barriers to your healthier place.
+                Here, you will find a supportive community that provides the
+                additional motivation you require and the extra assistance you
+                desire to overcome challenging encounters
               </p>
             </Col>
             <Col>
               <Image src={Community} fluid />
               <h3>Amenities</h3>
               <p>
-                Your key opens all doors of the 4,000+ (and growing) locations
-                worldwide – 24 hours a day, seven days a week.
+                We have amenities that suits all you needs on your path to a
+                healthier lifestyle.
               </p>
             </Col>
           </Row>

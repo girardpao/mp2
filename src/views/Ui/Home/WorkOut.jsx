@@ -3,7 +3,6 @@ import "./WorkOut.css";
 import Carousel from "react-bootstrap/Carousel";
 // import CarouselImage from "components/ExampleCarouselImage";
 import axios from "axios";
-import dog from "../../../assets/AboutBg.jpg";
 
 const WorkOut = () => {
   const [workouts, setWorkouts] = useState([]);
@@ -24,30 +23,38 @@ const WorkOut = () => {
       "https://exercisedb.p.rapidapi.com/exercises",
       options
     );
-    data.forEach((item) => {
-      console.log(item);
+    data.forEach((items) => {
+      console.log(items);
     });
     setWorkouts(data);
   }
 
   return (
     <section id="workouts">
+      <h2 className="text-center mt-4">
+        Exercises to start your fitness journey
+      </h2>
       <Carousel>
         <Carousel.Item>
-          {/* {workouts.map((workout, index) => {
+          {workouts.map((workout, index) => {
             return (
-              
+              <div className="d-flex justify-content-center" key={index}>
+                <img
+                  className="d-block w-25"
+                  src={workout.gifUrl}
+                  alt="First slide"
+                />
+              </div>
             );
-          })} */}
-          <img className="d-block w-100" src={dog} alt="First slide" />
-          <Carousel.Caption>
+          })}
+          {/*<Carousel.Caption className="caption">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
-        </Carousel.Item>
+           </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-50 text-center"
             src="holder.js/800x400?text=First slide&bg=f5f5f5"
             alt="First slide"
           />
@@ -67,7 +74,7 @@ const WorkOut = () => {
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
     </section>
