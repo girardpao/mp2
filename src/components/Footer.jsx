@@ -3,10 +3,10 @@ import "./Footer.css"
 const Footer = () => {
 
   return (
-    <footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="footer-col">
+    <footer className="footer">
+	<div className="container">
+		<div className="row">
+			<div className="footer-col">
 				<h4>Gymfinity</h4>
 				<ul>
 					<li><a href="#">About Us</a></li>
@@ -16,7 +16,7 @@ const Footer = () => {
 				</ul>
 			</div>
 
-			<div class="footer-col">
+			<div className="footer-col">
 				<h4>Get Help</h4>
 				<ul>
 					<li><a href="#">FAQ</a></li>
@@ -28,9 +28,9 @@ const Footer = () => {
 
 				</ul>
 			</div>
-			<div class="footer-col">
+			<div className="footer-col">
 				<h4>Follow US</h4>
-				<div class="social-links">
+				<div className="social-links">
 					<a href="#"><i class="fab fa-facebook-f"></i></a>
 					<a href="#"><i class="fab fa-twitter"></i></a>
 					<a href="#"><i class="fab fa-instagram"></i></a>
