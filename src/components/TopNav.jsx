@@ -29,7 +29,7 @@ function TopNav() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="brand">
+        <Navbar.Brand as={Link} to="/" className="brand gymfinity-logo">
           Gymfinity
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
