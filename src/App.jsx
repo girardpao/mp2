@@ -1,4 +1,4 @@
-import TopNav from "./components/Topnav";
+import TopNav from "./components/TopNav";
 import { Routes, Route } from "react-router-dom";
 import routes from "./routes";
 import "./App.css";
